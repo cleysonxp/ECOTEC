@@ -1561,11 +1561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec.API\\EcoTec.Shared.Modelos\\EcoTec.Shared.Modelos.csproj",
+      "projectUniqueName": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Shared.Modelos\\EcoTec.Shared.Modelos.csproj",
       "projectName": "EcoTec.Shared.Modelos",
-      "projectPath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec.API\\EcoTec.Shared.Modelos\\EcoTec.Shared.Modelos.csproj",
+      "projectPath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Shared.Modelos\\EcoTec.Shared.Modelos.csproj",
       "packagesPath": "C:\\Users\\Cleyson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec.API\\EcoTec.Shared.Modelos\\obj\\",
+      "outputPath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Shared.Modelos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

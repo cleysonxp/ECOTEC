@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTec.Shared.Modelos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+655f996a687b90bbe0be01ebfec12956552b4639")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b6991adec83329119f2e999343c8327e493360d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTec.Shared.Modelos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTec.Shared.Modelos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

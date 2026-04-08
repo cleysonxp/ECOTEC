@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZQfdB7PxhY=",
+  "dgSpecHash": "U0F+NEeKhvk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec.API\\EcoTec.Shared.Modelos\\EcoTec.Shared.Modelos.csproj",
+  "projectFilePath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Shared.Modelos\\EcoTec.Shared.Modelos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cleyson\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\Cleyson\\.nuget\\packages\\microsoft.data.sqlclient\\7.0.0\\microsoft.data.sqlclient.7.0.0.nupkg.sha512",
