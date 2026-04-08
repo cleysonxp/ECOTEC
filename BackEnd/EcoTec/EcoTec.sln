@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.API", "EcoTec.API\EcoTec.API.csproj", "{7BF2827D-7E82-4056-8C40-7258CF9E7C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.Shared.Modelos", "EcoTec.Shared.Modelos\EcoTec.Shared.Modelos.csproj", "{5FBA9526-593D-4ECC-818B-80D99A1801FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.Domain", "EcoTec.Shared.Modelos\EcoTec.Domain.csproj", "{5FBA9526-593D-4ECC-818B-80D99A1801FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.Shared.Dados", "EcoTec.Shared.Dados\EcoTec.Shared.Dados.csproj", "{4556073F-3759-4625-BFBF-06EB39F9FAB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.Infra", "EcoTec.Shared.Dados\EcoTec.Infra.csproj", "{4556073F-3759-4625-BFBF-06EB39F9FAB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

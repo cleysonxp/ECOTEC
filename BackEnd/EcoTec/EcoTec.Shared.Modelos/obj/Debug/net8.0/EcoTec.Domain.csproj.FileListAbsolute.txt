@@ -1,0 +1,15 @@
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\bin\Debug\net8.0\EcoTec.Domain.deps.json
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\bin\Debug\net8.0\EcoTec.Domain.runtimeconfig.json
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\bin\Debug\net8.0\EcoTec.Domain.dll
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\bin\Debug\net8.0\EcoTec.Domain.pdb
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.csproj.AssemblyReference.cache
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.AssemblyInfoInputs.cache
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.AssemblyInfo.cs
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.sourcelink.json
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.dll
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\refint\EcoTec.Domain.dll
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.pdb
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\EcoTec.Domain.genruntimeconfig.cache
+C:\Users\Cleyson\Desktop\ECOTEC\BackEnd\EcoTec\EcoTec.Shared.Modelos\obj\Debug\net8.0\ref\EcoTec.Domain.dll

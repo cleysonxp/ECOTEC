@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTec.Shared.Dados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b6991adec83329119f2e999343c8327e493360d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0919d81ba7c86b163b09ad508d9437e657e2d05")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTec.Shared.Dados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTec.Shared.Dados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
