@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.API", "EcoTec\EcoTec.API.csproj", "{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.Domain", "EcoTec.Domain\EcoTec.Domain.csproj", "{0AB7B418-E093-48C3-A64F-1ABA9008F67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoTec.Infra", "EcoTec.Infra\EcoTec.Infra.csproj", "{023A0A4C-896D-44F9-A975-1956B049109C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB7B418-E093-48C3-A64F-1ABA9008F67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB7B418-E093-48C3-A64F-1ABA9008F67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB7B418-E093-48C3-A64F-1ABA9008F67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB7B418-E093-48C3-A64F-1ABA9008F67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023A0A4C-896D-44F9-A975-1956B049109C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023A0A4C-896D-44F9-A975-1956B049109C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023A0A4C-896D-44F9-A975-1956B049109C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023A0A4C-896D-44F9-A975-1956B049109C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB8B33B-8A49-4D26-977E-8CC6AF5423F5}
+	EndGlobalSection
+EndGlobal
