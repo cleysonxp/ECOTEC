@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{023A0A4C-896D-44F9-A975-1956B049109C}|EcoTec.Infra\\EcoTec.Infra.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023A0A4C-896D-44F9-A975-1956B049109C}|EcoTec.Infra\\EcoTec.Infra.csproj|solutionrelative:ecotec.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|solutionrelative:ecotec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AB7B418-E093-48C3-A64F-1ABA9008F67F}|EcoTec.Domain\\EcoTec.Domain.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB7B418-E093-48C3-A64F-1ABA9008F67F}|EcoTec.Domain\\EcoTec.Domain.csproj|solutionrelative:ecotec.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023A0A4C-896D-44F9-A975-1956B049109C}|EcoTec.Infra\\EcoTec.Infra.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec.infra\\banco\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023A0A4C-896D-44F9-A975-1956B049109C}|EcoTec.Infra\\EcoTec.Infra.csproj|solutionrelative:ecotec.infra\\banco\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023A0A4C-896D-44F9-A975-1956B049109C}|EcoTec.Infra\\EcoTec.Infra.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec.infra\\banco\\ecoteccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023A0A4C-896D-44F9-A975-1956B049109C}|EcoTec.Infra\\EcoTec.Infra.csproj|solutionrelative:ecotec.infra\\banco\\ecoteccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,27 +43,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Infra\\Class1.cs",
-              "RelativeDocumentMoniker": "EcoTec.Infra\\Class1.cs",
-              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Infra\\Class1.cs",
-              "RelativeToolTip": "EcoTec.Infra\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Program.cs",
+              "RelativeDocumentMoniker": "EcoTec\\Program.cs",
+              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Program.cs",
+              "RelativeToolTip": "EcoTec\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T00:44:51.036Z",
+              "WhenOpened": "2026-04-09T16:48:14.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "EcoTec.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Domain\\Class1.cs",
-              "RelativeToolTip": "EcoTec.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DAL.cs",
+              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Infra\\Banco\\DAL.cs",
+              "RelativeDocumentMoniker": "EcoTec.Infra\\Banco\\DAL.cs",
+              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Infra\\Banco\\DAL.cs",
+              "RelativeToolTip": "EcoTec.Infra\\Banco\\DAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T00:44:29.972Z",
+              "WhenOpened": "2026-04-09T15:34:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EcoTecContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Infra\\Banco\\EcoTecContext.cs",
+              "RelativeDocumentMoniker": "EcoTec.Infra\\Banco\\EcoTecContext.cs",
+              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec.Infra\\Banco\\EcoTecContext.cs",
+              "RelativeToolTip": "EcoTec.Infra\\Banco\\EcoTecContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T15:18:11.583Z",
               "EditorCaption": ""
             }
           ]
