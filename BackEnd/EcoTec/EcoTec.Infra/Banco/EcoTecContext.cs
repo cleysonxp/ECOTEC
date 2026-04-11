@@ -10,17 +10,23 @@ namespace EcoTec.Infra.Banco;
 
 public class EcoTecContext : DbContext
 {
-    public DbSet<Usuario> usuarios {  get; set; }
+    public DbSet<Usuario> Usuarios {  get; set; }
+    public DbSet<Endereco> Enderecos {  get; set; }
+    
+    public EcoTecContext() { }
 
-    private readonly string _connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EcoTec;Integrated Security=True;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+    public EcoTecContext(DbContextOptions options) : base(options) { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder
-                .UseSqlServer(_connectionString);
-                //.UseLazyLoadingProxies();
+            var connectionString = "server=localhost;port=3306;database=EcoTec;user=root;password=bcd127;SslMode=none;";
+
+            optionsBuilder.UseMySql(
+                connectionString,
+                ServerVersion.AutoDetect(connectionString)
+            );
         }
     }
 }
