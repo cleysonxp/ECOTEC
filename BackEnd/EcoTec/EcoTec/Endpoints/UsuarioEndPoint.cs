@@ -10,13 +10,18 @@ public static class UsuarioEndpoint
 {
     public static void MapUsuarioEndPoint(this WebApplication app)
     {
+        var groupBuilder = app.MapGroup("usuario").WithTags("Usuario");
+
         #region Usuario
-        app.MapGet("/usuarios", ([FromServices] DAL<Usuario> dal) =>
+
+        // Listar todos usuarios
+        groupBuilder.MapGet("", ([FromServices] DAL<Usuario> dal) =>
         {
             return dal.Listar(u => u.Endereco);
         });
 
-        app.MapGet("/usuarios/{id}", ([FromServices] EcoTecContext context, int id) =>
+        // Listar usuario por id
+        groupBuilder.MapGet("{id}", ([FromServices] EcoTecContext context, int id) =>
         {
             var usuario = context.Usuarios
                 .Include(u => u.Endereco)
@@ -37,7 +42,8 @@ public static class UsuarioEndpoint
             });
         });
 
-        app.MapPost("/usuarios", ([FromServices] DAL<Usuario> dal, [FromBody] UsuarioRequest usuarioRequest) =>
+        // Criar usuario
+        groupBuilder.MapPost("", ([FromServices] DAL<Usuario> dal, [FromBody] UsuarioRequest usuarioRequest) =>
         {
             var usuario = new Usuario
             {
@@ -47,20 +53,10 @@ public static class UsuarioEndpoint
             };
             dal.Adicionar(usuario);
             return Results.Ok();
-        });
+        });        
 
-        app.MapDelete("/usuarios/{id}", ([FromServices] DAL<Usuario> dal, int id) =>
-        {
-            var usuario = dal.RecuperarPor(a => a.IdUsuario == id);
-            if (usuario is null)
-            {
-                return Results.NotFound();
-            }
-            dal.Deletar(usuario);
-            return Results.NoContent();
-        });
-
-        app.MapPut("/usuarios/{id}", ([FromServices] DAL<Usuario> dal, [FromBody] UsuarioRequest usuarioRequest, int id) =>
+        // Atualizar usuario
+        groupBuilder.MapPut("{id}", ([FromServices] DAL<Usuario> dal, [FromBody] UsuarioRequest usuarioRequest, int id) =>
         {
             var usuarioAtualizar = dal.RecuperarPor(a => a.IdUsuario == id);
             if (usuarioAtualizar is null)

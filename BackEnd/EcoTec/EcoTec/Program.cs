@@ -7,10 +7,12 @@ using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 // ?? Configuração do banco de dados (Entity Framework)
-//builder.Services.AddDbContext<EcoTecContext>(options =>
-//{
-//    options.UseMySql(builder.Configuration.GetConnectionString("Default"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("Default"))
-//);
+builder.Services.AddDbContext<EcoTecContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    )
+);
 
 builder.Services.AddDbContext<EcoTecContext>();
 builder.Services.AddTransient<DAL<Usuario>>();

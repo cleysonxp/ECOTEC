@@ -1,4 +1,5 @@
 ﻿using EcoTec.API.Requests;
+using EcoTec.API.Response;
 using EcoTec.Domain.Modelo;
 using EcoTec.Infra.Banco;
 using Microsoft.AspNetCore.Mvc;
@@ -10,13 +11,18 @@ public static class EnderecoEndpoint
 {
     public static void MapEnderecoEndpoint(this WebApplication app)
     {
+        var groupBuilder = app.MapGroup("endereco").WithTags("Endereco");
+
         #region Endereco
-        app.MapGet("/enderecos", ([FromServices] DAL<Endereco> dal) =>
+
+        // Listar endereços
+        groupBuilder.MapGet("", ([FromServices] DAL<Endereco> dal) =>
         {
             return dal.Listar();
         });
        
-        app.MapPost("/enderecos", ([FromServices] DAL<Endereco> dal, [FromBody] EnderecoRequest enderecoRequest) =>
+        // Criar endereço
+        groupBuilder.MapPost("", ([FromServices] DAL<Endereco> dal, [FromBody] EnderecoRequest enderecoRequest) =>
         {
             var usuario = dal.RecuperarPor(a => a.IdUsuario == enderecoRequest.IdUsuario);
             if (usuario != null)
@@ -35,6 +41,28 @@ public static class EnderecoEndpoint
             dal.Adicionar(endereco);
             return Results.Ok();
         });
+
+        // Listar endereço de usuario especifico
+        groupBuilder.MapGet("{idUsuario}", ([FromServices] DAL<Endereco> dal, int idUsuario) =>
+        {
+            var endereco = dal.RecuperarPor(f => f.IdUsuario == idUsuario);
+
+            if (endereco is null)
+                return Results.NotFound($"Endereço não foi encontrado.");
+
+            var enderecoResponse = new EnderecoResponse(
+                endereco.IdEndereco, 
+                endereco.Cep,
+                endereco.Estado, 
+                endereco.Cidade, 
+                endereco.Bairro, 
+                endereco.Rua,
+                endereco.IdUsuario
+            );
+
+            return Results.Ok(enderecoResponse);            
+        });
+
         #endregion
     }
 }

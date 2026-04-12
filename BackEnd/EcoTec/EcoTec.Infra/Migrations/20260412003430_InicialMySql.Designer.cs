@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcoTec.Infra.Migrations
 {
     [DbContext(typeof(EcoTecContext))]
-    [Migration("20260410173628_InicialMySql")]
+    [Migration("20260412003430_InicialMySql")]
     partial class InicialMySql
     {
         /// <inheritdoc />

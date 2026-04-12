@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTec.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bb4c9415fc79b1891a6dd17d535849abffb8cec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9517b3229c38c837ed3305710adec56e9fe8bbc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTec.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTec.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,14 +19,6 @@ public class EcoTecContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        if (!optionsBuilder.IsConfigured)
-        {
-            var connectionString = "server=localhost;port=3306;database=EcoTec;user=root;password=bcd127;SslMode=none;";
-
-            optionsBuilder.UseMySql(
-                connectionString,
-                ServerVersion.AutoDetect(connectionString)
-            );
-        }
+        
     }
 }
