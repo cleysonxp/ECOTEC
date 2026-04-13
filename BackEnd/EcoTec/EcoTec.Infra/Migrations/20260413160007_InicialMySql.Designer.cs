@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcoTec.Infra.Migrations
 {
     [DbContext(typeof(EcoTecContext))]
-    [Migration("20260412003430_InicialMySql")]
+    [Migration("20260413160007_InicialMySql")]
     partial class InicialMySql
     {
         /// <inheritdoc />
@@ -89,7 +89,7 @@ namespace EcoTec.Infra.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<string>("Senha")
+                    b.Property<string>("SenhaHash")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");

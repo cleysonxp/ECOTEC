@@ -11,7 +11,7 @@ public static class EnderecoEndpoint
 {
     public static void MapEnderecoEndpoint(this WebApplication app)
     {
-        var groupBuilder = app.MapGroup("endereco").WithTags("Endereco");
+        var groupBuilder = app.MapGroup("endereco").WithTags("Endereco").RequireAuthorization();
 
         #region Endereco
 

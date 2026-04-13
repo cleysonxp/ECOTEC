@@ -5,7 +5,29 @@
     "version": "1.0"
   },
   "paths": {
-    "/enderecos": {
+    "/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/endereco": {
       "get": {
         "tags": [
           "Endereco"
@@ -47,7 +69,7 @@
         }
       }
     },
-    "/enderecos/{idUsuario}": {
+    "/endereco/{idUsuario}": {
       "get": {
         "tags": [
           "Endereco"
@@ -70,7 +92,7 @@
         }
       }
     },
-    "/usuarios": {
+    "/usuario": {
       "get": {
         "tags": [
           "Usuario"
@@ -112,7 +134,7 @@
         }
       }
     },
-    "/usuarios/{id}": {
+    "/usuario/{id}": {
       "get": {
         "tags": [
           "Usuario"
@@ -249,11 +271,25 @@
         },
         "additionalProperties": false
       },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "senha": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Usuario": {
         "required": [
           "email",
           "nome",
-          "senha"
+          "senhaHash"
         ],
         "type": "object",
         "properties": {
@@ -271,7 +307,7 @@
             "minLength": 1,
             "type": "string"
           },
-          "senha": {
+          "senhaHash": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string"
@@ -300,6 +336,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Digite: Bearer {seu token}",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

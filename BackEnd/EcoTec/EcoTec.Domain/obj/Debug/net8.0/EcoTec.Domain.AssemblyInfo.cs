@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTec.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e22830e998abc006ee585e94608deecf303e1da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+560cbed45d1527becd068acb8843af96a0cb7495")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTec.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTec.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

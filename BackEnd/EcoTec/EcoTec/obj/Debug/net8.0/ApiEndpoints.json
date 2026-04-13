@@ -1,8 +1,33 @@
 [
   {
+    "ContainingType": "EcoTec.API.Endpoints.AuthEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthEndPoint\u003Eb__0_0",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EcoTec.API.Requests.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Auth"
+    ]
+  },
+  {
     "ContainingType": "EcoTec.API.Endpoints.EnderecoEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapEnderecoEndpoint\u003Eb__0_0",
-    "RelativePath": "enderecos/",
+    "RelativePath": "endereco/",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -23,7 +48,7 @@
   {
     "ContainingType": "EcoTec.API.Endpoints.EnderecoEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapEnderecoEndpoint\u003Eb__0_1",
-    "RelativePath": "enderecos/",
+    "RelativePath": "endereco/",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -48,7 +73,7 @@
   {
     "ContainingType": "EcoTec.API.Endpoints.EnderecoEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapEnderecoEndpoint\u003Eb__0_2",
-    "RelativePath": "enderecos/{idUsuario}",
+    "RelativePath": "endereco/{idUsuario}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -73,7 +98,7 @@
   {
     "ContainingType": "EcoTec.API.Endpoints.UsuarioEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapUsuarioEndPoint\u003Eb__0_0",
-    "RelativePath": "usuarios/",
+    "RelativePath": "usuario/",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -94,7 +119,7 @@
   {
     "ContainingType": "EcoTec.API.Endpoints.UsuarioEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapUsuarioEndPoint\u003Eb__0_2",
-    "RelativePath": "usuarios/",
+    "RelativePath": "usuario/",
     "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
@@ -119,7 +144,7 @@
   {
     "ContainingType": "EcoTec.API.Endpoints.UsuarioEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapUsuarioEndPoint\u003Eb__0_1",
-    "RelativePath": "usuarios/{id}",
+    "RelativePath": "usuario/{id}",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -144,7 +169,7 @@
   {
     "ContainingType": "EcoTec.API.Endpoints.UsuarioEndpoint\u002B\u003C\u003Ec",
     "Method": "\u003CMapUsuarioEndPoint\u003Eb__0_3",
-    "RelativePath": "usuarios/{id}",
+    "RelativePath": "usuario/{id}",
     "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,

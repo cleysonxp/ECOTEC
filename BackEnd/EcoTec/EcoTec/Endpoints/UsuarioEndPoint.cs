@@ -18,7 +18,7 @@ public static class UsuarioEndpoint
         groupBuilder.MapGet("", ([FromServices] DAL<Usuario> dal) =>
         {
             return dal.Listar(u => u.Endereco);
-        });
+        }).RequireAuthorization();
 
         // Listar usuario por id
         groupBuilder.MapGet("{id}", ([FromServices] EcoTecContext context, int id) =>
@@ -40,7 +40,7 @@ public static class UsuarioEndpoint
                 mensagem = "Usuário encontrado",
                 dados = usuario
             });
-        });
+        }).RequireAuthorization();
 
         // Criar usuario
         groupBuilder.MapPost("", ([FromServices] DAL<Usuario> dal, [FromBody] UsuarioRequest usuarioRequest) =>
@@ -49,7 +49,7 @@ public static class UsuarioEndpoint
             {
                 Nome = usuarioRequest.Nome,
                 Email = usuarioRequest.Email,
-                Senha = usuarioRequest.Senha
+                SenhaHash = BCrypt.Net.BCrypt.HashPassword(usuarioRequest.Senha)
             };
             dal.Adicionar(usuario);
             return Results.Ok();
@@ -63,13 +63,13 @@ public static class UsuarioEndpoint
             {
                 return Results.NotFound();
             }
-            usuarioAtualizar.Senha = usuarioRequest.Senha;
+            usuarioAtualizar.SenhaHash = usuarioRequest.Senha;
 
             dal.Atualizar(usuarioAtualizar);
 
 
             return Results.NoContent();
-        });
+        }).RequireAuthorization();
         #endregion
     }
 }

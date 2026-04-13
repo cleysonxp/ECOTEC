@@ -86,7 +86,7 @@ namespace EcoTec.Infra.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<string>("Senha")
+                    b.Property<string>("SenhaHash")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");

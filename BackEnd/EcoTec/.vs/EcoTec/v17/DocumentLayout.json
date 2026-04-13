@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|solutionrelative:ecotec\\endpoints\\usuarioendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec\\endpoints\\authendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|solutionrelative:ecotec\\endpoints\\authendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|solutionrelative:ecotec\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|c:\\users\\cleyson\\desktop\\ecotec\\backend\\ecotec\\ecotec\\endpoints\\enderecoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBAC28A9-D97A-4042-AEE7-435E4DC86DA2}|EcoTec\\EcoTec.API.csproj|solutionrelative:ecotec\\endpoints\\enderecoendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +46,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Program.cs",
+              "RelativeDocumentMoniker": "EcoTec\\Program.cs",
+              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Program.cs",
+              "RelativeToolTip": "EcoTec\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:50:25.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Endpoints\\AuthEndPoint.cs",
+              "RelativeDocumentMoniker": "EcoTec\\Endpoints\\AuthEndPoint.cs",
+              "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Endpoints\\AuthEndPoint.cs",
+              "RelativeToolTip": "EcoTec\\Endpoints\\AuthEndPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T17:46:07.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuarioEndPoint.cs",
               "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Endpoints\\UsuarioEndPoint.cs",
               "RelativeDocumentMoniker": "EcoTec\\Endpoints\\UsuarioEndPoint.cs",
               "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Endpoints\\UsuarioEndPoint.cs",
               "RelativeToolTip": "EcoTec\\Endpoints\\UsuarioEndPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T01:09:40.187Z",
+              "WhenOpened": "2026-04-13T17:47:11.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EnderecoEndPoint.cs",
               "DocumentMoniker": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Endpoints\\EnderecoEndPoint.cs",
               "RelativeDocumentMoniker": "EcoTec\\Endpoints\\EnderecoEndPoint.cs",
               "ToolTip": "C:\\Users\\Cleyson\\Desktop\\ECOTEC\\BackEnd\\EcoTec\\EcoTec\\Endpoints\\EnderecoEndPoint.cs",
               "RelativeToolTip": "EcoTec\\Endpoints\\EnderecoEndPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T00:36:22.478Z",
+              "WhenOpened": "2026-04-13T17:47:18.148Z",
               "EditorCaption": ""
             }
           ]
