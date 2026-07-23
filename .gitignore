@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+
+# Publicação
+publish/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

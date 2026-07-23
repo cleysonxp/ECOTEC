@@ -38,7 +38,6 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddDbContext<EcoTecContext>();
 builder.Services.AddAuthorization();
 builder.Services.AddTransient<DAL<Usuario>>();
 builder.Services.AddTransient<DAL<Endereco>>();
@@ -82,6 +81,7 @@ app.UseAuthorization();
 app.MapAuthEndPoint();
 app.MapUsuarioEndPoint();
 app.MapEnderecoEndpoint();
+app.MapDenunciaEndPoint();
 
 app.UseSwagger();
 app.UseSwaggerUI();
