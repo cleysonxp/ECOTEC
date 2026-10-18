@@ -317,6 +317,45 @@ public static class DenunciaEndpoint
         }).RequireAuthorization();
 
 
+        // Remover curtida de uma denúncia
+        groupBuilder.MapDelete("{id}/like", ([FromServices] EcoTecContext context, int id, ClaimsPrincipal user) =>
+        {
+            // Recupera o ID do usuário autenticado pelo JWT
+            var idUsuarioClaim = user.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (idUsuarioClaim is null ||
+                !int.TryParse(idUsuarioClaim.Value, out var idUsuario))
+            {
+                return Results.Unauthorized();
+            }
+
+            // Busca a curtida do usuário nesta denúncia
+            var like = context.DenunciasLike
+                .FirstOrDefault(l =>
+                    l.IdDenuncia == id &&
+                    l.IdUsuario == idUsuario);
+
+            if (like is null)
+            {
+                return Results.NotFound(new
+                {
+                    mensagem = "Você ainda não curtiu esta denúncia."
+                });
+            }
+
+            // Remove a curtida
+            context.DenunciasLike.Remove(like);
+            context.SaveChanges();
+
+            return Results.Ok(new
+            {
+                mensagem = "Curtida removida com sucesso."
+            });
+
+        }).RequireAuthorization();
+
+
+
         #endregion
     }
 
