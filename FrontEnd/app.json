@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ECOTEC",
+    "name": "EcoTec",
     "slug": "ECOTEC",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0B3B2C"
     },
     "ios": {
       "supportsTablet": true
@@ -18,13 +18,33 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0B3B2C"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-video",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O EcoTec usa sua localização para mostrar denúncias perto de você e marcar o local de uma nova denúncia."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O EcoTec acessa suas fotos e vídeos para você anexar evidências a uma denúncia.",
+          "cameraPermission": "O EcoTec usa a câmera para você registrar fotos e vídeos de uma denúncia.",
+          "microphonePermission": "O EcoTec usa o microfone ao gravar o vídeo de uma denúncia."
+        }
+      ]
+    ],
+    "description": "Registro, compartilhamento e acompanhamento de denúncias ambientais no estado de São Paulo."
   }
 }
