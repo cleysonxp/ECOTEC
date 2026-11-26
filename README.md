@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="FrontEnd/assets/logo-horizontal.png" alt="EcoTec - Monitoramento ambiental cidadão" width="440">
+</p>
+
 # 🌱 EcoTec
 
 **EcoTec 1.0: O cidadão paulista na linha de frente do monitoramento ambiental**
@@ -69,7 +73,7 @@ Desenvolver uma solução tecnológica que:
 
 ### 🔹 Mobile
 
-* React Native
+* React Native (Expo)
 * TypeScript
 
 ### 🔹 Back-end
@@ -88,6 +92,14 @@ Desenvolver uma solução tecnológica que:
 * Geolocalização (GPS)
 * Arquitetura MVC
 * Sistemas Distribuídos
+
+---
+
+## 🚀 Como executar
+
+* Aplicativo: [`FrontEnd/README.md`](FrontEnd/README.md)
+* Passo a passo para rodar e testar no celular: [`FrontEnd/README_TESTES.md`](FrontEnd/README_TESTES.md)
+* API: pasta [`BackEnd/EcoTec`](BackEnd/EcoTec)
 
 ---
 
